@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Due Diligence - TV Azteca</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Aplicamos la fuente Century Gothic como base del proyecto */
+        body {
+            font-family: 'Century Gothic', sans-serif;
+        }
+        
+        /* Definimos los colores personalizados para fácil acceso con clases de Tailwind */
+        .bg-brand-red { background-color: #e53d2f; }
+        .bg-brand-gray { background-color: #a3a9ac; }
+        .bg-brand-dark-blue { background-color: #425363; }
+        .text-brand-red { color: #e53d2f; }
+        .text-brand-gray { color: #a3a9ac; }
+        .text-brand-dark-blue { color: #425363; }
+        .border-brand-red { border-color: #e53d2f; }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 sm:p-6 md:p-8">
+
+    <div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
+        <!-- Encabezado del Documento -->
+        <header class="p-8 border-b-4 border-brand-red">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-bold text-brand-dark-blue">Due Diligence: TV Azteca</h1>
+                    <p class="text-lg text-gray-500 mt-1">Cronograma de Trabajo</p>
+                </div>
+                <!-- Logo corporativo simulado -->
+                <div class="text-right">
+                     <div class="w-24 h-12 flex items-center justify-center">
+                        <span class="text-2xl font-bold text-brand-dark-blue">LOGO</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Contenedor de la tabla con scroll para pantallas pequeñas -->
+        <div class="overflow-x-auto">
+            <div class="min-w-full">
+                <!-- Tabla del Cronograma -->
+                <table class="w-full text-sm text-left text-gray-600">
+                    <thead class="text-xs text-white uppercase bg-brand-dark-blue">
+                        <tr>
+                            <th scope="col" class="px-6 py-4 w-1/12">Ref.</th>
+                            <th scope="col" class="px-6 py-4 w-5/12">Actividad Específica</th>
+                            <th scope="col" class="px-6 py-4 w-2/12">Responsable</th>
+                            <th scope="col" class="px-6 py-4 w-1/12 text-center">Fecha de Inicio</th>
+                            <th scope="col" class="px-6 py-4 w-1/12 text-center">Fecha de Fin</th>
+                            <th scope="col" class="px-6 py-4 w-2/12 text-center">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Fase 1 -->
+                        <tr class="bg-gray-200 font-bold text-brand-dark-blue">
+                            <td colspan="6" class="px-6 py-3 text-base">Fase 1: Preparación y Análisis Inicial (04-Aug a 08-Aug)</td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">1.1</td>
+                            <td class="px-6 py-4">Kick-off interno: Alineación y asignación de tareas.</td>
+                            <td class="px-6 py-4">Todo el Equipo</td>
+                            <td class="px-6 py-4 text-center">05-Aug</td>
+                            <td class="px-6 py-4 text-center">05-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-green-800 bg-green-200 rounded-full">Completado</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">1.2</td>
+                            <td class="px-6 py-4">Revisar la documentación NUEVA y existente en el Data Room.</td>
+                            <td class="px-6 py-4">Cada Miembro</td>
+                            <td class="px-6 py-4 text-center">05-Aug</td>
+                            <td class="px-6 py-4 text-center">07-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">1.3</td>
+                            <td class="px-6 py-4">Identificar información faltante y formular preguntas clave.</td>
+                            <td class="px-6 py-4">Cada Miembro</td>
+                            <td class="px-6 py-4 text-center">05-Aug</td>
+                            <td class="px-6 py-4 text-center">07-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">1.4</td>
+                            <td class="px-6 py-4">Consolidar todas las preguntas en un listado único.</td>
+                            <td class="px-6 py-4 text-gray-400 italic">Por definir</td>
+                            <td class="px-6 py-4 text-center">08-Aug</td>
+                            <td class="px-6 py-4 text-center">08-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                         <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">1.5</td>
+                            <td class="px-6 py-4">Enviar solicitud de información consolidada a TV Azteca.</td>
+                            <td class="px-6 py-4 text-gray-400 italic">Por definir</td>
+                            <td class="px-6 py-4 text-center">08-Aug</td>
+                            <td class="px-6 py-4 text-center">08-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+
+                        <!-- Fase 2 -->
+                        <tr class="bg-gray-200 font-bold text-brand-dark-blue">
+                            <td colspan="6" class="px-6 py-3 text-base">Fase 2: Análisis Profundo y Mesas de Trabajo (11-Aug a 15-Aug)</td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">2.1</td>
+                            <td class="px-6 py-4">Mesa de Trabajo: Cadena de Propiedad de Activos.</td>
+                            <td class="px-6 py-4 text-gray-400 italic">Por definir</td>
+                            <td class="px-6 py-4 text-center">11-Aug</td>
+                            <td class="px-6 py-4 text-center">12-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">2.2</td>
+                            <td class="px-6 py-4">Mesa de Trabajo: Garantías y Embargos.</td>
+                            <td class="px-6 py-4 text-gray-400 italic">Por definir</td>
+                            <td class="px-6 py-4 text-center">11-Aug</td>
+                            <td class="px-6 py-4 text-center">12-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">2.3</td>
+                            <td class="px-6 py-4">Mesa de Trabajo: Impuestos.</td>
+                            <td class="px-6 py-4 text-gray-400 italic">Por definir</td>
+                            <td class="px-6 py-4 text-center">13-Aug</td>
+                            <td class="px-6 py-4 text-center">14-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">2.4</td>
+                            <td class="px-6 py-4">Mesa de Trabajo: Contrato de Aporte 437.</td>
+                            <td class="px-6 py-4 text-gray-400 italic">Por definir</td>
+                            <td class="px-6 py-4 text-center">13-Aug</td>
+                            <td class="px-6 py-4 text-center">14-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                         <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">2.5</td>
+                            <td class="px-6 py-4">Documentar hallazgos (findings) preliminares de las mesas.</td>
+                            <td class="px-6 py-4">Todos</td>
+                            <td class="px-6 py-4 text-center">14-Aug</td>
+                            <td class="px-6 py-4 text-center">15-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+
+                        <!-- Fase 3 -->
+                        <tr class="bg-gray-200 font-bold text-brand-dark-blue">
+                            <td colspan="6" class="px-6 py-3 text-base">Fase 3: Cierre y Reporte (18-Aug a 22-Aug)</td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">3.1</td>
+                            <td class="px-6 py-4">Elaboración del borrador del informe de Due Diligence.</td>
+                            <td class="px-6 py-4">Todos</td>
+                            <td class="px-6 py-4 text-center">18-Aug</td>
+                            <td class="px-6 py-4 text-center">20-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">3.2</td>
+                            <td class="px-6 py-4">Revisión interna y consolidación del informe final.</td>
+                            <td class="px-6 py-4">Todos</td>
+                            <td class="px-6 py-4 text-center">21-Aug</td>
+                            <td class="px-6 py-4 text-center">21-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-gray-900">3.3</td>
+                            <td class="px-6 py-4">Presentación de conclusiones y puntos clave para el SPA.</td>
+                            <td class="px-6 py-4 text-gray-400 italic">Por definir</td>
+                            <td class="px-6 py-4 text-center">22-Aug</td>
+                            <td class="px-6 py-4 text-center">22-Aug</td>
+                            <td class="px-6 py-4 text-center">
+                                <span class="px-3 py-1 text-xs font-semibold text-yellow-800 bg-yellow-200 rounded-full">Pendiente</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Pie de Página -->
+        <footer class="p-6 bg-gray-50 text-center text-sm text-gray-500">
+            <p>Documento Confidencial &copy; 2024. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
